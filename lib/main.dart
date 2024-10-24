@@ -32,8 +32,8 @@ class ContentScreen extends StatelessWidget {
               child: const CircleAvatar(
                 radius: 100,
                 backgroundImage: 
-                // AssetImage('photos/Titus.jpg'),
-                NetworkImage("url")
+                AssetImage('photos/Titus.jpg')
+                // NetworkImage("url")
               ),
             ),
             const SizedBox(
